@@ -62,7 +62,7 @@ body {
 }
 
 #searchField {
-  width: 670px;
+  width: 650px;
   height: 28px;
   border: 1px solid lightgrey;
   border-radius: 2px;
@@ -86,4 +86,60 @@ body {
     height: 20px;
     vertical-align: top;
     margin: 12px 0 0 -35px;
+}
+
+.tools {
+  width: 690px;
+  height: 65px;
+  margin: 0 0 -20px 135px;
+}
+
+.tools span {
+  padding: 10px 10px 14px 10px;
+  margin: 3px 0 0px 5px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  border-bottom: 3px solid transparent;
+}
+
+.tools span a {
+  text-decoration: none;
+  color: grey;
+  opacity: .75;
+  transition-duration: 0.2s;
+}
+
+.tools span a:hover {
+  opacity: 1;
+  color: black;
+}
+
+.leftPart {
+  float: left;
+}
+
+.rightPart {
+  float: right;
+}
+
+#active {
+  color: blue;
+  font-weight: bold;
+  border-bottom-color: blue;
+}
+
+#toolsButton {
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 5px;
+  transition-duration: 0.2s;
+}
+
+
+#toolsButton:hover {
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 5px;
+  background-image: url(buttonBack.png);
+  background-repeat: no-repeat;
 }
