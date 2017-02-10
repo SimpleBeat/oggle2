@@ -178,11 +178,36 @@ body {
   text-decoration: underline;
 }
 
+.bottom {
+  margin-left: 170px;
+  margin-top: 20px;
+}
 
+.bottom span {
+  font-size: 13px;
+  color: grey;
+  padding-right: 10px;
+}
 
+.bottom span a {
+  text-decoration: none;
+  color: grey;
+  opacity: .75;
+  transition-duration: 0.2s;
+}
 
+.bottom span a:hover {
+  opacity: 1;
+  color: black;
+}
+
+.bottom span img {
+  padding-right: 6px;
+  margin-bottom: -1px;
+}
 
 .footer {
   background-color: #fafafa;
   border-top: 1px solid lightgrey;
+  padding-bottom: 5px;
 }
